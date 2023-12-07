@@ -7,44 +7,4 @@
 @import url("../blocks/profile.css");
 @import url("../blocks/cards.css");
 @import url("../blocks/card.css");
-
-@media screen and (max-width: 320px) {
-  .profile {
-    flex-direction: column;
-  }
-
-  .profile__info {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    padding-top: 30px;
-  }
-
-  .profile__description {
-    width: 100%;
-    text-align: center;
-    /* padding-top: 14px; */
-  }
-  .profile__title {
-    font-size: 22px;
-  }
-  .profile__add-button {
-    margin: 0;
-    width: 100%;
-    margin-top: 36px;
-    max-width: 282px;
-  }
-
-  .header {
-    padding-left: 27px;
-    padding-bottom: 32px;
-  }
-}
-
-@media screen and (max-width: 1100px) {
-  .page__section {
-    margin: 0 20px;
-    max-width: calc(100% - 40px);
-  }
-}
+@import url("../blocks/responsive.css");
