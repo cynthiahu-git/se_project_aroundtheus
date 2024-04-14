@@ -39,6 +39,6 @@
   margin-left: auto;
 }
 
-.card__like-button: hover {
+.card__like-button:hover {
   cursor: pointer;
 }
