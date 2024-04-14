@@ -1,6 +1,6 @@
-.footer {
+.footer__copyright {
   color: #545454;
-  font-family: Inter;
+  font-family: Inter, sans-serif;
   font-size: 18px;
   font-weight: 400;
   padding-top: 67px;
