@@ -30,9 +30,10 @@
   background: transparent url(../images/Add-Button.svg) center no-repeat;
   grid-area: button;
   margin-left: auto;
-  border: 1px solid white;
+  border: 2px solid white;
   width: 150px;
   height: 50px;
+  border-radius: 2px;
 }
 
 .profile__add-button:hover {
@@ -80,6 +81,7 @@
 @media screen and (max-width: 420px) {
   .profile {
     flex-direction: column;
+    padding-top: 42px;
   }
 
   .profile__info {
@@ -93,11 +95,13 @@
   .profile__description {
     width: 100%;
     text-align: center;
-    /* padding-top: 14px; */
+    font-size: 14px;
+    padding-top: 14px;
   }
   .profile__title {
     font-size: 22px;
     padding-bottom: 0px;
+    line-height: 26px;
   }
   .profile__add-button {
     margin: 0;
