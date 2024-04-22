@@ -3,7 +3,7 @@
 Project name: Around The U.S.
 Project description: This is an interactive web page where users can add, remove and like photos of other users.
 List of technologies you used: HTML, CSS
-Link to github-pages: https://github.com/cynthiahu-git/se_project_aroundtheus
+Link to github-pages: https://cynthiahu-git.github.io/se_project_aroundtheus/
 Link to the video overview: https://drive.google.com/file/d/1zirzg4hK8wz6uJ62c2eH1KFFu6BjlO5a/view?usp=sharing
 
 ### Overview
