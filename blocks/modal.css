@@ -1,0 +1,109 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+}
+
+.modal_container {
+  padding: 36px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+}
+
+.modal_close {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  bottom: calc(100% + 5px);
+  left: calc(100% + 5px);
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/Close-Icon.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.modal_close:hover {
+  opacity: 0.6;
+}
+
+.modal_heading {
+  color: black;
+  font-size: 24px;
+  font-family: "Inter";
+  font-weight: bold;
+  padding-bottom: 54px;
+  margin: 0;
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 358px;
+  height: 27.26px;
+  margin-bottom: 29.74px;
+  display: flex;
+  padding: 0;
+  font-family: "Inter";
+  color: black;
+  line-height: 16.94px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding-bottom: 13.26px;
+}
+
+input[type="text"]:nth-child(2) {
+  margin-bottom: 0px;
+}
+
+::placeholder {
+  color: black;
+  font-size: 14px;
+}
+
+.modal_button {
+  width: 358px;
+  height: 50.15px;
+  border: 0;
+  color: #fff;
+  background-color: black;
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 21.78px;
+  margin-top: 48px;
+  border-radius: 2px;
+}
+
+@media screen and (max-width: 420px) {
+  .modal_heading {
+    padding-bottom: 75px;
+    font-size: 18px;
+  }
+
+  input[type="text"] {
+    padding-bottom: 13px;
+    margin-bottom: 30px;
+  }
+
+  .modal_button {
+    margin-top: 40px;
+  }
+
+  .modal_container {
+    padding: 25px 22px;
+    /* width: 282px; */
+    font-size: 14px;
+  }
+
+  .modal_close {
+    bottom: calc(100% + 15px);
+    left: calc(100% - 38px);
+  }
+}
